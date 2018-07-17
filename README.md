@@ -26,7 +26,7 @@ class ToDo():
 	CLASS HERE
 
 def main():
-	newToDoList = ToDo(“Kenn”, “01/01/1990”, [“Do the dishes”, “Wash your clothes”])
+	newToDoList = ToDo(“Kenn”, “Next Week”, [“Do the dishes”, “Wash your clothes”])
 	print(newToDoList.list)
 
 main()
@@ -40,7 +40,7 @@ class ToDo():
 	CLASS HERE
 
 def main():
-	newToDoList = ToDo(“Kenn”, “01/01/1990”, [“Do the dishes”, “Wash your clothes”])
+	newToDoList = ToDo(“Kenn”, “Next Week”, [“Do the dishes”, “Wash your clothes”])
 	print(newToDoList.list)
 	newToDoList.addTask(“Take out the trash”)
 
